@@ -6,7 +6,7 @@ CHIP A5Q2201871067 {
     Not(in=K, out=notK);
     Not(in=G, out=notG);
     And(a=notK, b=R, out=notKandR);
-    Or(a=notK, b=R,o ut=SMILE1);
+    Or(a=notK, b=R, out=SMILE1);
     Or(a=SMILE1, b=notKandR, out=SMILE2);
     And(a=notG, b=SMILE2, out=F);
 }
