@@ -1,4 +1,4 @@
-CHIP load A5Q2201871067 {
+CHIP A5Q2201871067 {
     IN K,R,G;
     OUT F;
 
